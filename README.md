@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Crypto Currencies</b></h3>
+  <h3><b>Vet clinic</b></h3>
 
 </div>
 
@@ -13,56 +13,32 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-  - [Video Demo](#video-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Run tests](#run-tests)
 - [👥 Author](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Crypto Currencies <a name="about-project"></a>
+# 📖 Vet clinic psql database <a name="about-project"></a>
 
-**Crypto Currencies** is a web application that provides live information about the top 100 cryptocurrencies through a live API. The web app allows users to get all details related to the top cryptos.
+**Vet clinic** is a psql database for a vet clinic. Where you can store animals' information, insert some data into it, and query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Reactjs
-- Redux
-- [API](https://api.coincap.io/v2/assets)
-- Jest
+- Psql
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Sort list of the top 100 cryptos**
-- **Filter by name**
-- **Detail information**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-[Live demo](https://crypto-currencies-shinhyobelok.netlify.app/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- video DEMO -->
-
-## Video Demo <a name="video-demo"></a>
-
-[Video demo](https://drive.google.com/file/d/1HyTuYGF17_-O-13N-I_jiolZI58d2CDt/view?usp=sharing)
+- **Store animals information**
+- **Query**
+- **Insert information**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,8 +53,6 @@ To get a local copy up and running follow these simple example steps.
 In order to run this project you need:
 
 - Github
-- VisualStudio Code
-- Node.js
 
 ### Setup
 
@@ -86,24 +60,8 @@ Clone this repository to your desired folder:
 
 - Choose a local directory.
 - Open a Git Terminal.
-- write: git clone https://github.com/ShinhyoBelok/crypto-webapp.git
+- write: git clone https://github.com/ShinhyoBelok/vet_clinic_psql.git
 - Open the repository with VS Code.
-
-### Install
-
-To run the project, execute the following command:
-
-- Open repository with vs code
-- In terminal run `npm i`
-- In terminal run `npm start`
-
-### Test
-
-To run the project test, execute the following command:
-
-- `npm run test`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -121,7 +79,8 @@ To run the project test, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Cool animation**
+- [ ] **New data**
+- [ ] **New queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,14 +99,6 @@ Feel free to check the [issues page](https://github.com/ShinhyoBelok/crypto-weba
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Design inspired by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
