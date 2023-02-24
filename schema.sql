@@ -29,3 +29,26 @@ ALTER TABLE animals ADD FOREIGN KEY (species_id) REFERENCES species(id);
 
 ALTER TABLE animals ADD COLUMN owner_id  INT;
 ALTER TABLE animals ADD FOREIGN KEY (owner_id ) REFERENCES owners(id);
+
+CREATE TABLE vets(
+  id SERIAL,
+  name VARCHAR(50) NOT NULL,
+  age INT NOT NULL,
+  escape_attempts INT NOT NULL,
+  date_of_graduation DATE NOT NULL,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE specializations (
+  id SERIAL,
+  species_id INT NOT NULL,
+  vets_id INT NOT NULL,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE visits (
+  id SERIAL,
+  animals_id INT NOT NULL,
+  vets_id INT NOT NULL,
+  PRIMARY KEY (id)
+);
