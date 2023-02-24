@@ -34,7 +34,6 @@ CREATE TABLE vets(
   id SERIAL,
   name VARCHAR(50) NOT NULL,
   age INT NOT NULL,
-  escape_attempts INT NOT NULL,
   date_of_graduation DATE NOT NULL,
   PRIMARY KEY (id)
 );
@@ -50,5 +49,6 @@ CREATE TABLE visits (
   id SERIAL,
   animals_id INT NOT NULL,
   vets_id INT NOT NULL,
+  date_of_visit DATE NOT NULL,
   PRIMARY KEY (id)
 );
