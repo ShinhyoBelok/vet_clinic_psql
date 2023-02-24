@@ -40,15 +40,15 @@ CREATE TABLE vets(
 
 CREATE TABLE specializations (
   id SERIAL,
-  species_id INT NOT NULL,
-  vets_id INT NOT NULL,
+  species_id INT REFERENCES species(id) NOT NULL,
+  vets_id INT REFERENCES vets(id) NOT NULL,
   PRIMARY KEY (id)
 );
 
 CREATE TABLE visits (
   id SERIAL,
-  animals_id INT NOT NULL,
-  vets_id INT NOT NULL,
+  animals_id INT REFERENCES animals(id) NOT NULL,
+  vets_id INT REFERENCES vets(id) NOT NULL,
   date_of_visit DATE NOT NULL,
   PRIMARY KEY (id)
 );
