@@ -10,17 +10,19 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-- [👥 Author](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Vet clinic psql database ](#-vet-clinic-psql-database-)
+  - [🛠 Built With ](#-built-with-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [👥 Authors ](#-authors-)
+  - [👤 **Yilikal Teshome**](#-yilikal-teshome)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -65,13 +67,25 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Shinhyo**
 
 - GitHub: [@ShinhyoBelok](https://github.com/ShinhyoBelok)
 - Twitter: [@Bell_iraki](https://twitter.com/Bell_iraki)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shinhyo-belliard-okazaki-807a38249/)
+
+👤 **David Isea**
+
+- GitHub: https://github.com/AlucardSanin
+- Twitter: https://twitter.com/cadivisea
+- LinkedIn: https://www.linkedin.com/in/david-isea-560424236/
+
+## 👤 **Yilikal Teshome**
+
+- GitHub: [@Yilikal250](https://github.com/githubhandle)
+- Twitter: [@@TeshomeYilikal](https://twitter.com/twitterhandle)
+- LinkedIn: [teshomeyilikal250@gmail.com](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
